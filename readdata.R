@@ -14,11 +14,3 @@ readDfepc <- function(){
   dfepc
 }
 
-
-#png(filename = "plot1.png",   width = 480, height = 480)
-#hist(dfepc$Global_active_power, col="red", main='Global Active Power',xlab='Global Active Power (kilowatts)')
-#dev.off()
-
-#diagramm2
-#Sys.setlocale("LC_ALL","C")
-#plot(dmy_hms(paste(dfepc$Date,dfepc$Time, sep= " ")),dfepc$Global_active_power, type="l" ,ylab='Global Active Power (kilowatts)', xlab="")
